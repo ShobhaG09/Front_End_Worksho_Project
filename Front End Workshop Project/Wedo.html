@@ -1,0 +1,279 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Centum Fundation  </title>
+    <!-- Bootstrap Cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- google font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- local css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+   
+    <!-- <style>
+        #more {display: none;}
+        </style> -->
+</head>
+<body>
+     <!-- header section starts -->
+     <header class="header">
+      <a><i class="menu material-icons"> menu </i></a>
+      <nav class="navbar">
+        <img src="Image/UC.png" style="display:table-header-group;" height="50px" width="200px">
+        <a href="index.html">home</a>
+        
+        <a href="about.html">about <span> CENTUM </span></a>
+        <a href="Wedo.html">What <span> WE DO </span> 
+         
+        </a>
+        <a href="work.html">How we Work  </a>
+        <a href="team.html">Our Team </a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">contact</a>
+      </nav>
+    </header>
+  <!-- header section ends -->
+
+   <!-- home section starts -->
+   <section class="home" id="home">
+    <h1 class="home-text">
+         <br />
+    <span> </span>
+    </h1>
+    
+</section>
+<!-- home section ends -->
+
+<!-- What We DO section -->
+<section class="Wedo" id="Wedo" >
+  
+  <div class="slider">
+    <img
+      id="img-1"
+      src="Image/do3.jpeg"
+      alt="Image 1"
+    />
+    <img
+      id="img-2"
+      src="Image/do1.jpg"
+      alt="Image 2"
+    />
+    <img
+      id="img-3"
+      src="Image/do4.jpeg"
+      alt="Image 3"
+    />
+    <img
+      id="img-3"
+      src="Image/do5.jpeg"
+      alt="Image 4"
+    />
+    <img
+      id="img-3"
+      src="Image/Software-Developer-2.jpg"
+      alt="Image 5"
+    />
+  </div>
+  <div class="navigation-button">
+    <span class="dot active" onclick="changeSlide(0)"></span>
+    <span class="dot" onclick="changeSlide(1)"></span>
+    <span class="dot" onclick="changeSlide(2)"></span>
+    <span class="dot" onclick="changeSlide(3)"></span>
+    <span class="dot" onclick="changeSlide(4)"></span>
+  </div>
+<br>
+<br>
+</section>
+<section>
+  <div class="">
+    <h2 style="color: navy;" align="center">Structured Project Management</h2>
+    <br>
+    <h3 align="center" style="font-family: 'Times New Roman', Times, serif;">
+      Implementation is the key to success. Any CSR implementation mandate or CSR program which Centum Foundation takes up follows our 
+      structured project management approach. The focus remains unwavering on the outcomes.
+    </h3>
+    <br>
+    <img src="Image/project.png" height="100%" width="100%">
+
+  </div>
+  <br>
+  <br>
+  <div style="font-family: cursive, sans-serif;
+  background-color: #c2d6f8;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 20px 23px #dd9ecf;">
+  <h1 style="color: navy;font-style: italic;" align="center">Awards and Recognition</h1>
+  <marquee  behavior="scroll" direction="left">  
+    <img src= "Image/award.jpg" height="30%" width="30%">    
+    <img src= "Image/award1.jpg" height="30%" width="30%"> 
+    <img src= "Image/award2.jpg" height="30%" width="30%"> 
+    <img src= "Image/award3.jpg" height="30%" width="30%"> 
+    <img src= "Image/award4.jpg" height="30%" width="30%"> 
+    <img src= "Image/award5.jpg" height="30%" width="30%"> 
+    
+    
+</marquee>
+</div>
+</section>
+  <br>
+ 
+  <br>
+  <section>
+    <h1 style="color: navy;" align="center">How We Work </h1>
+    <div class="accordion">
+            <!-- span to target fix closing accordion -->
+            <span class="target-fix" id="accordion"></span>
+             
+            <!-- First Accoridon Option -->
+            <div>
+                <!-- span to target fix accordion -->
+                <span class="target-fix" id="accordion1"></span>
+                
+                <!-- Link to open accordion, hidden when open --> 
+                <a href="#accordion1" id="open-accordion1" title="open">Sales and Service Excellence Solution</a>
+                
+                <!-- Link to close accordion, hidden when closed -->
+                <a href="#accordion" id="close-accordion1" title="close">Sales and Service Excellence Solution</a> 
+                
+                <!-- Accorion content goes in this div -->
+                <div class="accordion-content">
+                  <h1 style="color: blue;">Transactions that build relationships</h1>
+                            <p>In this new age, with digitally empowered consumers and a dynamic business environment, Sales & Service Academy is intended to help organizations grow sales, increase profit margins, enhance customer satisfaction and build strong relationships leading to brand loyalty. It is a structured system developed for organisations to develop their high-impact sales and service teams.</p>
+                        
+                </div>
+            </div>
+    
+            <!-- Second Accoridon Option -->
+            <div>
+                <span class="target-fix" id="accordion2"></span>
+                <a href="#accordion2" id="open-accordion2" title="open"> Leadership Development </a>
+                <a href="#accordion" id="close-accordion2" title="close"> Leadership Development </a>
+                <div class="accordion-content">
+                  <h1 style="color: blue;">The art of inspiring leadership</h1>
+                          <p>The global marketplace needs leaders who can think on their feet. There is an ever-growing need for decision-makers to be able to foster and drive innovation. The Leadership Development Program provides those skills through an immersive learning journey. It empowers participants with insights and best practices to sharpen their leadership skills, develop their ability to tap business opportunities with strategic thinking and improve their agility to think in real-time and make impactful business decisions across the global business landscape.</p>
+                      
+                </div>
+            </div>
+    
+            <!-- Third Accoridon Option -->
+            <div>
+                <span class="target-fix" id="accordion3"></span>
+                <a href="#accordion3" id="open-accordion3" title="open"> Custome eContent Sulutions</a>
+                <a href="#accordion" id="close-accordion3" title="close"> Custome eContent Sulutions</a>
+                <div class="accordion-content">
+                  <h1 style="color: blue;">Content is King</h1>
+                  <p>Having highly engaging, relevant, and up-to-date content is critical for effective learning outcomes. Our in-house eContent development team has extensive instructional design and program development experience to develop content that is tailored to business strategy using innovative learning technologies. In designing engaging content we deploy adult learning methodologies such as simulation, gamification, microlearning etc. that are appropriate to the learning context.</p>
+               
+                </div>
+            </div>
+            <!-- Fourth Accoridon Option -->
+            <div>
+              <span class="target-fix" id="accordion4"></span>
+              <a href="#accordion4" id="open-accordion4" title="open">  Digital Learning Solution </a>
+              <a href="#accordio4" id="close-accordion4" title="close">  Digital Learning Solution </a>
+              <div class="accordion-content">
+                <h1 style="color: blue;">Staying ahead of the learning curve</h1>
+                <p>In line with how we engage socially and professionally, learning also needs to be digitally enabled to be delivered on any device, any time. Centum’s SaaS-based, smart, customizable digital learning solutions combine best-in-class technologies with a user-friendly learner-centric approach to save your productive man-hours and deliver a high learning ROI.
+
+                
+              </div>
+          </div>
+          <!-- five Accoridon Option -->
+          <div>
+            <span class="target-fix" id="accordion5"></span>
+            <a href="#accordion5" id="open-accordion5" title="open"> Employability & CSR Solutions</a>
+            <a href="#accordio5" id="close-accordion5" title="close"> Employability & CSR Solutions</a>
+            <div class="accordion-content">
+              <h1 style="color: blue;">Centum Foundation – Partnering for social impact</h1>
+                      <p>Organizations in the modern world, no longer work solely for profits. The focus on social responsibility has extended and it has shaped the organizational role and functioning towards the prevailing societal and environmental issues that require extended support. Centum Foundation* – the Corporate Social Responsibility company of Centum Learning, plays a pivotal role in helping design, monitor, and implement the CSR mandate of partner companies. Our CSR solutions are not merely aimed at delivering benefits but at creating a sustainable and self-running ecosystem that can bring meaningful change to lives and livelihoods.
+
+                        * Registered under Societies Registration Act, 1860 | Holds 80G Certificate | FCRA Registered.</p>
+                  
+            </div>
+        </div>
+        <!-- six Accoridon Option -->
+        <div>
+          <span class="target-fix" id="accordion6"></span>
+          <a href="#accordion6" id="open-accordion6" title="open">Tech Enablement And Higher Education</a>
+          <a href="#accordio6" id="close-accordion6" title="close">Tech Enablement And Higher Education</a>
+          <div class="accordion-content">
+            <h1 style="color: blue;">Revolutionizing Lifelong Learning</h1>
+            <p>The strategic partnership between Centum Learning and upGrad is set to revolutionize the world of B2B learning and higher education. This collaboration brings together the extensive expertise of upGrad in higher education and Centum’s rich experience in corporate training, providing businesses with a holistic lifelong learning ecosystem under one roof. In the spirit of ‘one upGrad’, our combined efforts will create a seamless and powerful learning experience for professionals and businesses alike, fostering a culture of continuous growth and development.</p>
+         
+          </div>
+        </div>
+        </div>
+    
+  </section>
+</div>
+ 
+  <!-- What We DO section End -->
+
+
+  
+
+  
+  
+  
+  
+  <!-- footer section starts -->
+  <footer class="footer" id="footer" >
+    <!-- <img  src="Image/centum.jpg" align="right"  height="150px" width="500px"/  > -->
+    <div class="col-container">
+      <!-- <img src="Image/centum.jpg" height="100%" width="15%" align="right">  -->
+      <div class="col">
+        <div class="box">
+          <div class="socials">
+              <ion-icon name="logo-google"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-youtube"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <p>desinged and developed by She Arise Trainees</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col">
+        <div class="box">
+          <h2></h2>
+          <p style="font-size: medium; color:black;">
+            <span> India Office:</span> 127, Neelagagan, Mandi Road, Sultanpur, Mehrauli, New Delhi – 110030, India
+          </p>
+          <p style=" font-size: medium; color:black;">
+            <span> Africa Office:</span> Parkside Towers, Mombasa Road, Box No 73146 00200, Nairobi, Kenya.
+  
+          </p>
+        </div>
+      </div>
+    
+    </div>
+  
+    
+  </footer>
+<!-- footer section ends -->
+  
+  <!-- ionicons cdn -->
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- local js file -->
+      <script src="JS/script.js"></script>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript"  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
